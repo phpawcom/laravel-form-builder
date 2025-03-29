@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^8.0",
-        "rdx/laravelcollective-html": "^6",
+        "rdx/laravelcollective-html": "dev-master#d8e98049e63be876261ffbbc043434a4a77e11ac",
         "illuminate/database": "^10||^11|^12",
         "illuminate/validation": "^10||^11|^12"
     },
@@ -46,5 +46,11 @@
         ]
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/phpawcom/laravel-form-builder"
+        }
+    ]
 }
