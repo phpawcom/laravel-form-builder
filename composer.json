@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": "^8.0",
-        "rdx/laravelcollective-html": "dev-master#d8e98049e63be876261ffbbc043434a4a77e11ac",
+        "rdx/laravelcollective-html": "dev-master",
         "illuminate/database": "^10||^11|^12",
         "illuminate/validation": "^10||^11|^12"
     },
@@ -50,7 +50,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/phpawcom/laravel-form-builder"
+            "url": "https://github.com/ltidev/laravelcollective-html"
         }
     ]
 }
